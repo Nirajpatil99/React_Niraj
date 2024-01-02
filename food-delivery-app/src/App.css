@@ -1,0 +1,92 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.minimize-button,
+.maximize-button,
+.close-button {
+  cursor: pointer;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.left-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.space {
+  width: 20px; /* Adjust the space as needed */
+}
+
+.image-container {
+  width: 60%;
+}
+
+.food-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 20%;
+  padding: 20px;
+}
+
+.registration-form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Add a border to the registration form */
+}
+
+.app-description {
+  
+  text-align: center;
+}
